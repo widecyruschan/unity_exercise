@@ -6,6 +6,7 @@ public class Bird : MonoBehaviour {
 	public int frameNumber	= 10;
 	public int frameCount	=0;
 	public float timer		=0;
+
 	
 	// Use this for initialization
 	void Start () {
