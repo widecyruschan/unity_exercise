@@ -6,7 +6,6 @@ public class Bird : MonoBehaviour {
 	public int frameNumber	= 10;
 	public int frameCount	=0;
 	public float timer		=0;
-
 	
 	// Use this for initialization
 	void Start () {
@@ -14,8 +13,7 @@ public class Bird : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () {	
 		if(GameManager._intance.GameState==(int)GameManager.GAMEState._PLAYING){ 
 				timer +=Time.deltaTime;
 				if(timer>=1.0f/frameNumber){
